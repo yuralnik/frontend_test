@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	font-family: Tahoma, sans-serif;
+	color: white;
+}
+
+body {
+	height: 100%;
+}
+
+.wrapper {
+	height: 100%; 	
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 950px; 
+	background-image: url(./images/background.png);
+	background-repeat: no-repeat;
+	display: flex;
+  	flex-direction: column;
+}
+
+.content {
+	padding: 52px 70px 0 70px;
+}
+
+.logo {
+	min-width: 263px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo figure {
+	max-width: 276px;
+	background:  url("./images/palm tree.png");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding-top: 82px;
+	margin-right: 13px;
+}
+
+.logo-pic {
+	align-self: flex-start;
+}
+
+.logo-discription {
+	font-size: 10px;
+	text-align: center;
+	padding-bottom: 17px;
+}
+	
+.contacts {
+	align-self: flex-end;
+	font-size: 10px;
+	text-align: left;
+	padding-bottom: 17px;
+}
+
+.contacts p {
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 2;
+}
+
+.contacts li {
+	font-weight: bold;
+	list-style-type: none;
+}
+
+.contacts a {
+	text-decoration: none;
+	color: white;
+}
+
+.main-content-wrapper {
+	flex: 1 0 auto;
+	display: flex;
+    flex-wrap: wrap;
+    width: 815px;
+}
+
+.main-content-wrapper figure {
+	flex: 1 1 261px;
+	margin: 0 5px 52px 0;
+}
+
+.main-content-wrapper img {
+	border: 3px solid #959595;
+}
+
+.main-content-wrapper figcaption {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	flex: 0 0 auto;
+	margin-bottom: 31px;
+	padding-top: 129px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
