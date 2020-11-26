@@ -15,7 +15,7 @@ body {
 
 .wrapper {
     min-height: 1024px;
-    background: #0e83a7;
+    background: #0e83a7; 
     background-size: 100%;
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@ body {
     height: 100%;
     max-width: 1000px;
     flex: 1 0 auto;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
 }
 
 .content {
@@ -35,24 +36,11 @@ body {
     flex: 1 0 auto;
 }
 
-.box-absolute {
-    background-color: #0e83a7;
-    height: 10px;
-    width: 100%;
-    border-bottom: 1px solid #0e83a7;
 
-}
-
-.box-absolute-2 {
-    margin: 0 auto;
-    background: white;
-    height: 10px;
-    width: 1000px;
-}
 
 .header-color {
     background: #0e83a7;
-    background: linear-gradient(to top, #ffffff, #e6eeff, #bbe1ff, #7ed7f8, #11cde2);
+    /* background: linear-gradient(to top, #ffffff, #e6eeff, #bbe1ff, #7ed7f8, #11cde2); */
     border-bottom: 1px solid rgb(255, 255, 255, 0.50);
 }
 
@@ -60,23 +48,17 @@ body {
     background-color: #0e83a7;
 }
 
-header {
+section {
     display: flex;
     flex-direction: column;
     color: #128aa7;
     font-size: 12px;
     height: 100%;
-
-}
-
-.body-color {
-    background: #0e83a7;
 }
 
 .main-header-wrapper {
-    background: #0e83a7;
-    background: linear-gradient(to top, #ffffff, #e6eeff, #bbe1ff, #7ed7f8, #11cde2);
-    border-bottom: 1px solid rgb(255, 255, 255, 0.50);
+    background: rgb(14,131,167);
+	background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 13%, rgba(255,255,255,1) 100%);
 }
 
 .header-top {
@@ -86,7 +68,8 @@ header {
     padding-top: 12px;
     width: 100%;
     padding: 11px 33px 0 28px;
-    max-height: 176px;
+    min-height: 176px;
+    
 }
 
 .main-logo {
@@ -98,6 +81,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-position-y: 10px;
+    margin-top: 17px;
 }
 
 .main-logo span {
@@ -116,6 +101,7 @@ header {
 
 .contacts-main {
     align-self: flex-end;
+    padding-bottom: 35px;
 }
 
 .countries-list {
@@ -124,6 +110,7 @@ header {
 }
 
 .countries-list li {
+	font-size: 10px;
     margin-right: 17px;
 }
 
@@ -153,6 +140,8 @@ header {
 
 .contacts figcaption {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #128aa7;
 }
 
 .photo {
@@ -161,6 +150,8 @@ header {
 
 .photo-wrapper {
     width: 100%;
+    border-top: 1px solid #138aa7;
+    border-bottom: 1px solid #138aa7;
 }
 
 .navigation-block {
@@ -170,6 +161,7 @@ header {
     color: white;
     font-size: 14px;
     display: flex;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .navigation-block .navigation-block-items {
@@ -181,7 +173,7 @@ header {
 
 
 .navigation-block .navigation-block-items>li {
-    padding-left: 65px;
+    padding-left: 60px;
     position: relative;
 }
 
@@ -195,11 +187,14 @@ header {
     background: #343434;
     position: absolute;
     width: 100%;
+    margin-right: 15px;
     padding: 0 10px;
     text-align: left;
     list-style-type: none;
     line-height: 1.7;
     top: 23px;
+    left: 50px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .navigation-block .navigation-block-items li:hover>.dropdown {
@@ -226,15 +221,20 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid #c7cacf;
+    padding-top: 14px;
 }
 
-.info-block h2 {
-    font-size: 18px;
+.info-block h3 {
+	color: #424c43;
+    font-size: 14px;
 }
 
 .info-block ul {
+	margin-top: 14px;
     list-style-type: none;
     font-size: 14px;
+    color: #424c43;
 }
 
 .center-block {
@@ -242,6 +242,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #424c43;
 }
 
 .news-block {
@@ -250,15 +251,22 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid #c7cacf;
+    padding-top: 14px;
 }
 
-.news-block h2 {
-    font-size: 18px;
+.news-block h3 {
+	color: hsl(126°, 13%, 30%);
+    font-size: 14px;
+    color: #424c43;
+    
 }
 
 .news-block ul {
+	margin-top: 14px;
     list-style-type: none;
     font-size: 14px;
+    color: #424c43;
 }
 
 
