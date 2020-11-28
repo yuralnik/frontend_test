@@ -57,8 +57,10 @@ section {
 }
 
 .main-header-wrapper {
-    background: rgb(14,131,167);
-	background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 13%, rgba(255,255,255,1) 100%);
+    /* background: rgb(14,131,167);
+	background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 13%, rgba(255,255,255,1) 100%); */
+	background: rgb(14,131,167);
+background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 13%, rgba(255,255,255,1) 83%);
 }
 
 .header-top {
@@ -195,6 +197,7 @@ section {
     top: 23px;
     left: 50px;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    border-top: 1px solid black;
 }
 
 .navigation-block .navigation-block-items li:hover>.dropdown {
@@ -203,6 +206,16 @@ section {
 
 .navigation-block span {
     font-size: 10px;
+}
+
+.arrow-down {
+	display: inline-block;
+	margin-left: 1px;
+  	width: 0; 
+  	height: 0; 
+  	border-left: 2px solid transparent;
+  	border-right: 2px solid transparent;
+  	border-top: 6px solid white;
 }
 
 main {
