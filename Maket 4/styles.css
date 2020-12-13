@@ -23,12 +23,11 @@ body {
 
 .container {
     background: white;
-    background-size: 100%;
     margin: 0 auto;
     height: 100%;
     max-width: 1000px;
     flex: 1 0 auto;
-    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 10px 1px rgb(0 0 0);
 }
 
 .content {
@@ -36,16 +35,9 @@ body {
     flex: 1 0 auto;
 }
 
-
-
 .header-color {
     background: #0e83a7;
-    /* background: linear-gradient(to top, #ffffff, #e6eeff, #bbe1ff, #7ed7f8, #11cde2); */
     border-bottom: 1px solid rgb(255, 255, 255, 0.50);
-}
-
-.body-color {
-    background-color: #0e83a7;
 }
 
 section {
@@ -57,21 +49,16 @@ section {
 }
 
 .main-header-wrapper {
-    /* background: rgb(14,131,167);
-	background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 13%, rgba(255,255,255,1) 100%); */
-	background: rgb(14,131,167);
-background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 13%, rgba(255,255,255,1) 83%);
+	background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 13%, rgba(255,255,255,1) 83%);
 }
 
 .header-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 12px;
     width: 100%;
     padding: 11px 33px 0 28px;
     min-height: 176px;
-    
 }
 
 .main-logo {
@@ -196,7 +183,7 @@ background: linear-gradient(180deg, rgba(14,131,167,1) 13%, rgba(17,205,226,1) 1
     line-height: 1.7;
     top: 23px;
     left: 50px;
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.75);
     border-top: 1px solid black;
 }
 
@@ -235,20 +222,20 @@ main {
     flex-direction: column;
     align-items: center;
     border: 1px solid #c7cacf;
-    padding-top: 12px;
 }
 
 .info-block h3 {
 	color: #424c43;
     font-size: 14px;
+    line-height: 28px;
+    opacity: 0.8;
 }
 
 .info-block ul {
-	margin-top: 12px;
     list-style-type: none;
     font-size: 14px;
     color: #424c43;
-    line-height: 14px;
+    line-height: 28px;
 }
 
 .center-block {
@@ -266,24 +253,22 @@ main {
     flex-direction: column;
     align-items: center;
     border: 1px solid #c7cacf;
-    padding-top: 12px;
 }
 
 .news-block h3 {
 	color: hsl(126°, 13%, 30%);
     font-size: 14px;
     color: #424c43;
-    
+    line-height: 28px;
+    opacity: 0.8;
 }
 
 .news-block ul {
-	margin-top: 12px;
     list-style-type: none;
     font-size: 14px;
     color: #424c43;
-    line-height: 14px;
+    line-height: 28px;
 }
-
 
 footer {
     text-align: center;
