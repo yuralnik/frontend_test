@@ -9,63 +9,65 @@
 
 <body>
     <div class="wrapper">
-        <div class="content">
-            <header>
-                <nav>
-                    <div class="navigation-block">
-                        <ul class="navigation-list-main">
-                            <li><a href="#">Meu YouBike</a></li>
-                            <li><a href="#">Vender</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Contato</a></li>
-                            <li><a href="#">Ajuda</a></li>
-                        </ul>
-                        <ul class="aside-navigation">
-                            <li class="img-list"><img src="./images/flag.png" alt="flag">
-                                <a href="#">Minhas ofertas</a></li>
-                            <li><a href="#">Ola! <span>Entarar</span> ou <span>Cadastre-se</span></a>
-                            </li>
-                        </ul>
-                        </aside>
-                    </div>
-                </nav>
-            </header>
-            <div class="container">
-                <div class="upper-block">
+        <header>
+            <nav>
+                <div class="navigation-block">
+                    <ul class="navigation-list-main">
+                        <li><a href="#">Meu YouBike</a></li>
+                        <li><a href="#">Vender</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                    <ul class="aside-navigation">
+                        <li class="flag-cell">
+                            <img src="./images/icons/flag.png" alt="flag">
+                            <a href="#">Minhas ofertas</a></li>
+                        <li>
+                            Ola! <a href="#">
+                            	<span>Entarar</span>
+                            </a>
+                             ou 
+                             <a href="#">
+                             	<span>Cadastre-se</span>
+                             </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="content">
+                <div class="content-title">
                     <span>Cadastre-se</span>
                 </div>
                 <div class="form-authorization">
                     <a href="#" class="fb-btn">
-                        <img src="./images/fb.jpg" alt="Fb logo">
-                        <span class="fb-text"><b>Login in</b> with <b>Facebook</b> <span class="arrow-right"></span></span>
+                        <img src="./images/icons/fb.jpg" alt="Fb logo">
+                        <span class="fb-text">
+                            <b>Login in</b> with <b>Facebook</b> 
+                            <span class="arrow-right"></span>
+                        </span>
                     </a>
-                    <div class="title">
-                        <div class="title-row">
-                            <div class="bar-container">
-                                <div class="bar"></div>
-                            </div>
-                            <div class="text">
-                                OU
-                            </div>
-                            <div class="bar-container">
-                                <div class="bar"></div>
-                            </div>
-                        </div>
+                    <div class="option">
+                        <div class="line"></div>
+                        <span class="text">ou</span>
+                        <div class="line"></div>
                     </div>
-                    <form action="#" class="text-areas">
-                        <input type="text" name="name" placeholder="First Name" class="text-inputs">
-                        <input type="text" name="name" placeholder="Last Name" class="text-inputs">
-                        <input type="text" name="name" placeholder="Email address" class="text-inputs">
-                        <input type="Password" name="name" placeholder="Choose Password" class="text-inputs">
-                        <input type="Password" name="name" placeholder="Confirm Password" class="text-inputs">
+                    <form action="#" class="registration-fields ">
+                        <input type="text" name="firstName" placeholder="First Name" class="registration-input">
+                        <input type="text" name="Lastname" placeholder="Last Name" class="registration-input">
+                        <input type="text" name="emailAddress" placeholder="Email address" class="registration-input">
+                        <input type="password" name="pass" placeholder="Choose Password" class="registration-input">
+                        <input type="password" name="pass" placeholder="Confirm Password" class="registration-input">
                     </form>
                     <p class="checkbox">
-                        <input type="checkbox" name="checkbox"><span>Send me YouBikes updates and tips</span>
+                        <input type="checkbox" name="sendUpdates"><span>Send me YouBikes updates and tips</span>
                     </p>
-                    <input type="submit" name="sumbit" class="submit-btn" value="Create my Account">
-                    <footer class="footer">
+                    <button type="submit" class="submit-btn">Create my Account</button>
+                    <div class="privacy">
                         <p>By clicking the button above, you agree to the Terms of Service <br> Xiew our Privacy Policy</p>
-                    </footer>
+                    </div>
                 </div>
             </div>
         </div>
