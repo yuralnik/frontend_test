@@ -228,7 +228,7 @@ main {
     border: transparent;
 }
 
-::placeholder {
+.registration-input::placeholder {
     color: #ffffff;
     opacity: 0.8;
 }
