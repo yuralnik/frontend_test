@@ -20,7 +20,7 @@
                         <li><a href="#">Ajuda</a></li>
                     </ul>
                     <ul class="aside-navigation">
-                        <li class="flag-cell">
+                        <li>
                             <img src="./images/icons/flag.png" alt="flag">
                             <a href="#">Minhas ofertas</a></li>
                         <li>
@@ -38,42 +38,40 @@
         </header>
         <main>
             <div class="container">
-                <div class="content">
-                    <div class="form-title">
-                        <span>Cadastre-se</span>
+                <div class="form-title">
+                    <span>Cadastre-se</span>
+                </div>
+                <div class="form-authorization">
+                    <a href="#" class="fb-btn">
+                        <img src="./images/icons/fb.jpg" alt="Fb logo">
+                        <span class="fb-text">
+                            <b>Login in</b> with <b>Facebook</b>
+                            <span class="arrow-right"></span>
+                        </span>
+                    </a>
+                    <div class="option">
+                        <div class="line"></div>
+                        <span class="text">ou</span>
+                        <div class="line"></div>
                     </div>
-                    <div class="form-authorization">
-                        <a href="#" class="fb-btn">
-                            <img src="./images/icons/fb.jpg" alt="Fb logo">
-                            <span class="fb-text">
-                                <b>Login in</b> with <b>Facebook</b>
-                                <span class="arrow-right"></span>
-                            </span>
-                        </a>
-                        <div class="option">
-                            <div class="line"></div>
-                            <span class="text">ou</span>
-                            <div class="line"></div>
-                        </div>
-                        <form action="#" class="registration-fields ">
+                    <form action="#">
+                        <div class="registration-fields ">
                             <input type="text" name="firstName" placeholder="First Name" class="registration-input">
                             <input type="text" name="Lastname" placeholder="Last Name" class="registration-input">
                             <input type="text" name="emailAddress" placeholder="Email address" class="registration-input">
                             <input type="password" name="pass" placeholder="Choose Password" class="registration-input">
-                            <input type="password" name="pass" placeholder="Confirm Password" class="registration-input">
-                        </form>
-                        <form class="checkbox">
-                            <input type="checkbox" name="sendUpdates"><span>Send me YouBikes updates and tips</span>
-                        </form>
-                        <form>
-                            <button type="submit" class="submit-btn">Create my Account</button>
-                        </form>
-                        <div class="privacy">
-                            <p>By clicking the button above, you agree to the Terms of Service <br> Xiew our Privacy Policy</p>
+                            <input type="password" name="confirmPass" placeholder="Confirm Password" class="registration-input">
                         </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="sendUpdates"><span>Send me YouBikes updates and tips</span>
+                        </div>
+                        <button type="submit" class="submit-btn">Create my Account</button>
+                    </form>
+                    <div class="privacy">
+                        <p>By clicking the button above, you agree to the Terms of Service <br> Xiew our Privacy Policy</p>
                     </div>
+                </div>
         </main>
-    </div>
     </div>
     </div>
 </body>
