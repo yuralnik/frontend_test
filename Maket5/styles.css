@@ -112,6 +112,7 @@ main {
 
 .aside-navigation span {
     text-decoration: underline;
+    margin: 0 5px;
 }
 
 .aside-navigation img {
