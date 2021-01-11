@@ -122,7 +122,6 @@ main {
 
 .form-title {
     width: 100%;
-    height: 100%;
     background: rgba(0, 0, 0, 0.7);
     margin-bottom: 3px;
     display: flex;
@@ -138,7 +137,6 @@ main {
 
 .form-authorization {
     width: 100%;
-    height: 100%;
     background: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
