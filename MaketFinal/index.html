@@ -4,6 +4,7 @@
 <head>
     <title>Pingbuller</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/nim7prn.css">
 </head>
@@ -12,8 +13,8 @@
     <div class="wrapper">
         <header>
             <nav class="navigation-block">
+            	<img src="./images/logo.png" alt="Company Logo" class="logo-img">
                 <ul class="navigation-list">
-                    <li><a href="#"><img src="./images/logo.png" alt="Company Logo"></a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
@@ -21,6 +22,15 @@
                     <li><a href="#">Lorem ipsum</a></li>
                     <li><a href="#">Dolor Sit Amet</a></li>
                 </ul>
+
+                <select>
+                	<option>Home</option>
+                	<option>About</option>
+                	<option>Blog</option>
+                	<option>Products</option>
+                	<option>Lorem ipsum</option>
+                	<option>Dolor Sit Amet</option>
+                </select>
             </nav>
             <div class="marketing-description-wrapper">
                 <section class="marketing-description">
@@ -98,7 +108,7 @@
                             <h3>RECENT UPDATES</h3>
                             <div class="updates-content">
                                 <div class="updates-photo">
-                                    <img src="./icons/head.png">
+                                    <img src="./icons/news-icon.png">
                                 </div>
                                 <ul class="updates-text">
                                     <li><span>Nunc turpis neque feugiat eget</span></li>
@@ -107,7 +117,7 @@
                             </div>
                             <div class="updates-content">
                                 <div class="updates-photo">
-                                    <img src="./icons/head.png">
+                                    <img src="./icons/news-icon.png">
                                 </div>
                                 <ul class="updates-text">
                                     <li><span>Nunc turpis neque feugiat eget</span></li>
@@ -116,7 +126,7 @@
                             </div>
                             <div class="updates-content">
                                 <div class="updates-photo">
-                                    <img src="./icons/head.png">
+                                    <img src="./icons/news-icon.png">
                                 </div>
                                 <ul class="updates-text">
                                     <li><span>Nunc turpis neque feugiat eget</span></li>
@@ -130,7 +140,7 @@
             </section>
             <section class="logos-block">
                 <div class="container">
-                    <img src="./images/logos.png">
+                    <div class="logos-img"></div>
                 </div>
             </section>
         </main>
@@ -154,33 +164,32 @@
                     </div>
                 </div>
             </div>
-            
             <div class="footer-navigation-block">
-            	<div class="container">
-            	<ul class="footer-navigation-list">
-            		<li>
-            			<a href="#">HOME</a>
-            		</li>
-            		<li>
-            			<a href="#">ABOUT</a>
-            		</li>
-            		<li>
-            			<a href="#">BLOG</a>
-            		</li>
-            		<li>
-            			<a href="#">PRODUCTS</a>
-            		</li>
-            		<li>
-            			<a href="#">LOREM IPSUM</a>
-            		</li>
-            		<li>
-            			<a href="#">DOLOR SIT</a>
-            		</li>
-            		<li class="design-copyright">
-            			<span>Designed by <b>Pingbuller AS</b></span>
-            		</li>
-            	</ul>
-            </div>
+                <div class="container">
+                    <ul class="footer-navigation-list">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="#">PRODUCTS</a>
+                        </li>
+                        <li>
+                            <a href="#">LOREM IPSUM</a>
+                        </li>
+                        <li>
+                            <a href="#">DOLOR SIT</a>
+                        </li>
+                        <li class="design-copyright">
+                            <span>Designed by <b>Pingbuller AS</b></span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </div>
