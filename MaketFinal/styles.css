@@ -111,37 +111,26 @@ footer {
 
 .marketing-block {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 400px;
+    margin-bottom: 170px;
 }
 
 .marketing-text {
     height: 100%;
     color: white;
     display: flex;
-    align-self: center;
     justify-content: center;
     flex-direction: column;
-    width: 35%;
-    margin-left: 55px;
 }
 
-.marketing-text h2 {
-    font-weight: 800;
-    font-size: 26px;
-}
-
-.marketing-text h3 {
-    font-size: 22px;
-    color: #eec0ff;
-}
-
-.marketing-text p {
-    font-size: 14px;
+.marketing-text-img-768 {
+	display: none;
 }
 
 .marketing-photo-wrapper {
-    width: 30%;
+	margin-right: 80px;
 }
 
 .image-480 {
@@ -157,7 +146,6 @@ footer {
 
 .company-description-block {
     display: flex;
-    align-items: center;
 }
 
 .company-description h3 {
@@ -185,8 +173,6 @@ footer {
     grid-template-columns: auto auto;
     grid-gap: 10px;
     padding: 80px 0 70px 0;
-    width: 28%;
-    margin-left: 15px;
 }
 
 .icon-block {
@@ -276,21 +262,18 @@ footer {
     color: black;
     display: block;
     text-align: right;
-    margin-top: 32px;
+    margin-top: 26px;
     font-weight: 700;
 }
 
 .logos-block {
     padding: 27px 0 30px;
-    margin: 0 auto;
 }
 
 .logos-img {
-    width: 772px;
+    width: 775px;
     height: 65px;
     background-image: url(./images/logos.png);
-    background-position: center;
-    background-size: 100%;
     margin: 0 auto;
 }
 
@@ -301,14 +284,15 @@ footer {
 }
 
 .footer-blocks-wrapper {
+	width: 100vw;
     display: flex;
     align-items: baseline;
+    margin: 0 auto;
 }
 
 .copyright-logo-block {
     font-size: 16px;
-    width: 25%;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .copyright-logo-block img {
@@ -328,8 +312,7 @@ footer {
 
 .comments-block {
     font-size: 16px;
-    width: 25%;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .comments-block p {
@@ -343,7 +326,7 @@ footer {
 
 .news-block {
     font-size: 16px;
-    width: 25%;
+    margin-right: 60px;
 }
 
 .news-block p {
@@ -423,10 +406,12 @@ footer {
         width: 768px;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
     }
 
     .logo-img {
-        margin: 0 auto;
+        
     }
 
     .navigation-list {
@@ -439,13 +424,19 @@ footer {
 
     .marketing-block {
         display: flex;
-        align-items: center;
-        justify-content: normal;
-        height: 400px;
+    }
+
+    .marketing-text-img {
+    	display: none;
+    }
+
+    .marketing-text-img-768 {
+    	display: block;
+    	margin-left: 40px;
     }
 
     .about-company-block {
-        width: 25%;
+       margin-right: 40px;
     }
 
     .copyright-logo-block {
@@ -568,8 +559,6 @@ footer {
     .marketing-photo-wrapper img {
         height: 259px;
     }
-
-
 
     .marketing-description-wrapper {
         margin-bottom: 38px;
