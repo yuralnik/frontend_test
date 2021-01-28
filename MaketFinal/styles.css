@@ -167,7 +167,7 @@ header {
 }
 
 .marketing-text-480 {
-	display: none;
+    display: none;
 }
 
 .marketing-text-480 h1 {
@@ -220,14 +220,12 @@ header {
 .about-company-block {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
+    grid-gap: 25px;
     padding: 80px 0 70px 0;
     margin-right: 60px;
 }
 
-.icon-block {
-    
-}
+.icon-block {}
 
 .company-text-description {
     display: flex;
@@ -235,7 +233,7 @@ header {
 }
 
 .company-text-description a:hover {
-	text-shadow:1px 1px 10px #fff;
+    text-shadow: 1px 1px 10px #fff;
 }
 
 .main-content-block {
@@ -276,19 +274,19 @@ header {
 }
 
 .review-text-768 {
-	display: none;
+    display: none;
 }
 
 .review-text-768 h3 {
-	font-size: 24px;
+    font-size: 24px;
 }
 
 .review-text-768 p {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .review-text-768 h3>span {
-	color: #f5ddff;
+    color: #f5ddff;
     font-weight: 800;
 }
 
@@ -302,7 +300,6 @@ header {
 
 .updates-content {
     display: flex;
-    align-items: flex-start;
 }
 
 .updates-content img {
@@ -337,7 +334,7 @@ header {
 }
 
 .updates-text li>a:hover {
-	text-shadow:1px 1px 10px #fff;
+    text-shadow: 1px 1px 10px #fff;
 }
 
 .logos-block {
@@ -516,20 +513,18 @@ header {
         margin-right: 40px;
     }
 
-    .about-company-block {
-
-    } 
+    .about-company-block {}
 
     .review-block {
-    	width: 313px;
+        width: 313px;
     }
 
     .review-text {
-    	display: none;
+        display: none;
     }
 
     .review-text-768 {
-    	display: block;
+        display: block;
     }
 
     .review-text-768 h3>span:before {
@@ -567,22 +562,20 @@ header {
     }
 
     .footer-navigation-list li:last-child {
-    	margin-left: 0;
+        margin-left: 0;
     }
 
     .design-copyright {
-    	margin-top: 40px; 
+        margin-top: 40px;
     }
 
-
-
     .footer-navigation-wrapper {
-    	display: flex;
-    	flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
     .design-copyright-480 {
-    	display: none;
+        display: none;
     }
 
 }
@@ -675,16 +668,12 @@ header {
     }
 
     .marketing-text-768 {
-    	display: none;
+        display: none;
     }
 
     .marketing-text-480 {
-    	display: inline-block;
-    	margin-left: 20px;
-    }
-
-    .marketing-photo-wrapper {
-        
+        display: inline-block;
+        margin-left: 36px;
     }
 
     .marketing-photo-wrapper img {
@@ -709,21 +698,14 @@ header {
     }
 
     .company-description-block {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         padding: 75px 0 45px;
     }
 
     .about-company-block {
         padding: 0 0 30px 0;
         margin: 0 20px;
-    }
-
-    .company-text-description {
-        margin-left: 10px;
-        width: 85%;
+        grid-gap: 20px;
     }
 
     .main-content-wrapper {
@@ -766,7 +748,6 @@ header {
     }
 
     .news-block {
-        width: 95%;
         margin: 0 20px 64px 20px;
     }
 
@@ -795,7 +776,7 @@ header {
     }
 
     .footer-navigation-list li {
-    	margin-right: 25px;
+        margin-right: 25px;
     }
 
     .design-copyright-480 {
@@ -810,9 +791,9 @@ header {
         max-width: 320px;
         margin: 0 auto;
     }
-    
+
     .logo-img {
-    	margin-right: 0;
+        margin-right: 0;
     }
 
     .marketing-photo-wrapper {
@@ -820,6 +801,10 @@ header {
     }
 
     .navigation-block {
+        margin-left: 0;
+    }
+
+    .marketing-text-480 {
     	margin-left: 0;
     }
 
@@ -846,7 +831,7 @@ header {
     }
 
     .review-block {
-    	width: 256px;
+        width: 256px;
     }
 
     .updates-block {
