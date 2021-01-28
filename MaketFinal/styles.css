@@ -358,7 +358,6 @@ header {
     width: 100%;
     display: flex;
     align-items: baseline;
-    margin: 0 auto;
 }
 
 .copyright-logo-block {
@@ -719,7 +718,7 @@ header {
     }
 
     .updates-block {
-        margin-top: 85px;
+        margin: 85px 0 0 0;
     }
 
     .updates-link-768 {
@@ -735,7 +734,6 @@ header {
     }
 
     .footer-blocks-wrapper {
-        display: flex;
         flex-direction: column;
     }
 
@@ -753,7 +751,6 @@ header {
 
     .news-block-480 {
         display: inline-block;
-        width: 95%;
         margin: 0 20px 64px 20px;
     }
 
