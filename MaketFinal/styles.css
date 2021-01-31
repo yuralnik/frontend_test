@@ -43,7 +43,7 @@ header {
 }
 
 .container {
-    max-width: 968px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ header {
     width: 100%;
     display: flex;
     grid-area: "head";
-    padding: 70px 0;
+    padding: 60px 0 170px;
 }
 
 .dropdown {
@@ -178,6 +178,7 @@ header {
 
 .company-description-block {
     display: flex;
+    margin-left: 5px;
 }
 
 .company-description h3 {
@@ -206,6 +207,13 @@ header {
     grid-gap: 25px;
     padding: 80px 0 70px 0;
     margin-right: 60px;
+}
+
+.about-company-block-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    padding: 80px 0 70px 0;
 }
 
 .company-text-description {
@@ -253,6 +261,16 @@ header {
 
 .review-photo {
     grid-row: 1 / 4;
+}
+
+.review-photo img {
+    position: absolute;
+    right: 95%;
+}
+
+.review-text {
+    margin-left: 35px;
+    padding-right: 44px;
 }
 
 .review-text h3 {
@@ -415,6 +433,33 @@ header {
     font-weight: bold;
 }
 
+.news-block-2 {
+    font-size: 16px;
+}
+
+.news-block-2 p {
+    opacity: 0.7;
+}
+
+.news-block-2 h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.news-block-480-2 {
+    display: none;
+    font-size: 16px;
+}
+
+.news-block-480-2 p {
+    opacity: 0.7;
+}
+
+.news-block-480-2 h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .footer-navigation-block {
     background: url(./images/footer-bg.png);
 }
@@ -508,10 +553,21 @@ header {
         margin-right: 40px;
     }
 
-    .about-company-block {}
+    .about-company-block-2 {
+        margin-right: 20px;
+    }
+
+    .company-description span>a {
+        margin-right: 20px;
+    }
 
     .review-block {
         width: 313px;
+    }
+
+    .review-photo img {
+        position: absolute;
+        right: 92%;
     }
 
     .review-text {
@@ -520,6 +576,8 @@ header {
 
     .review-text-768 {
         display: block;
+        margin-left: 40px;
+        padding-right: 20px;
     }
 
     .review-text-768 h3>span:before {
@@ -542,6 +600,11 @@ header {
     .news-block-480 {
         display: inline-block;
         margin-right: 60px;
+    }
+
+    .news-block-480-2 {
+        display: inline-block;
+        margin-right: 20px;
     }
 
     .news-block {
@@ -711,11 +774,18 @@ header {
     .company-description-block {
         flex-direction: column;
         padding: 75px 0 45px;
+        margin: 0 20px;
     }
 
     .about-company-block {
         padding: 0 0 30px 0;
-        margin: 0 20px;
+        margin: 0;
+        grid-gap: 20px;
+    }
+
+    .about-company-block-2 {
+        padding: 0 0 30px 0;
+        margin: 0;
         grid-gap: 20px;
     }
 
@@ -727,6 +797,14 @@ header {
 
     .review-block {
         width: 415px;
+    }
+
+    .review-photo img {
+        right: 93%;
+    }
+
+    .review-text-768 {
+        padding-right: 30px;
     }
 
     .updates-block {
@@ -763,6 +841,10 @@ header {
 
     .news-block-480 {
         display: inline-block;
+        margin: 0 20px 64px 20px;
+    }
+
+    .news-block-480-2 {
         margin: 0 20px 64px 20px;
     }
 
@@ -813,10 +895,6 @@ header {
         margin-left: 0;
     }
 
-    .company-description-block {
-    	margin-left: 0;
-    }
-
     .marketing-text-480 {
         margin-left: 0;
     }
@@ -847,8 +925,12 @@ header {
         width: 256px;
     }
 
+    .review-photo img {
+        right: 89%;
+    }
+
     .updates-block {
-        margin: 85px 20px;
+        margin: 85px 20px 0 20px;
     }
 
     .logos-img {
@@ -860,7 +942,7 @@ header {
     }
 
     .footer-description-wrapper {
-    	display: none;
+        display: none;
     }
 
     .footer-navigation-list {
